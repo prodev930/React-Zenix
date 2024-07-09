@@ -1,0 +1,104 @@
+.site-footer{
+	&.style-1{
+		.footer-top{
+		    background-color: var(--primary);
+			background-blend-mode: luminosity;
+			background-size:cover		;
+			background-position: bottom;
+			.widget{
+				p{
+				font-weight: 400;
+				font-size: 14px;
+				color:#fff;
+				width:60%;
+					@include respond('phone-land'){
+						width:100%;
+					}
+				}
+				.footer-title{
+				
+				}
+				ul{
+					li{
+					font-weight: 400;
+					font-size: 14px;
+					color:#fff;
+						a{
+							font-weight: 400;
+							font-size: 14px;
+							color:#fff;
+						}
+					}
+				}
+			}
+			.widget_getintuch{
+				margin-right:0;
+				ul{
+					li{
+				    padding-left: 0px;
+					display:flex;
+					align-items: center;
+					margin-bottom:20px;
+						i{
+						margin-right: 12px;
+						font-size: 22px;
+						width: 30px;
+						height: 30px;
+						line-height: 30px;
+						min-width: 30px;
+						}
+					}
+				}
+			}
+			
+			.footer-subscribe-wrapper{
+				position: relative;
+				z-index: 1;
+					&:after{
+						content: '';
+						position: absolute;
+						bottom: 25%;
+						left: 0;
+						border: 1px solid rgba(255, 255, 255, 0.1);
+						width: 100%;
+						z-index: -1;
+							@include respond('tab-port'){
+								display:none;
+							}
+					}	
+				.widget{
+					padding-bottom:30px;
+						@include respond('tab-port'){
+							padding-bottom:0;
+						}
+				}	
+			}
+			
+			.dzSubscribe{
+				.input-group{
+					.btn{
+						background: #fff !important;
+						border:none;
+					}
+				}
+			}	
+		}
+		.footer-bottom{
+			background-color: #fff;
+			.copyright-text{
+				font-weight: 400;
+				font-size: 14px;
+				color: #666666;
+			}
+			ul{
+				li{
+					a{
+					font-weight: 400;
+					font-size: 14px;
+					color:#666;
+					}
+				}
+			}
+		}
+	}
+}

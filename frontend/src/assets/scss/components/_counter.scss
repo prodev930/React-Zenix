@@ -1,0 +1,45 @@
+// Counter 1
+.counter-style-1{
+	z-index: 1;
+	position: relative;
+	padding-top:50px;
+	
+	.counter-num {
+		color:#1E1E26;
+		font-size: 80px;
+		font-weight: 600;
+		line-height: 1.4;
+	}
+	p{
+		font-weight: 500;
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	@include respond('phone'){
+		font-size: 1.875rem;
+		p {
+			font-size: 14px;
+		}
+		.counter-num {
+			font-size: 2.5rem;
+		}
+	}
+	@include respond('phone-land'){
+		padding-top:30px;
+	}	
+}
+
+
+.counter-style-2{
+	z-index: 1;
+	position: relative;
+		.counter-number{
+			font-weight: 700;
+			font-size: 35px;
+			margin-bottom:0;
+		}
+		.counter-text{
+			font-weight: 500;
+			font-size: 16px;
+		}
+}

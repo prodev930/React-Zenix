@@ -1,0 +1,35 @@
+
+
+.swiper-btn-center-lr{
+	.btn-next,
+	.btn-prev{
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+		&.style-1{
+			font-size: 45px;
+			color: #C5C5C5;
+			@include respond('phone'){
+				font-size: 20px;
+			}
+		}
+	}
+	.btn-prev{
+		left:-30px;
+		@include respond('tab-land'){
+			left: -0px;
+		}
+		@include respond('phone'){
+			left:0px;
+		}
+	}
+	.btn-next{
+		right:-30px;
+		@include respond('tab-land'){
+			right:-0px;
+		}
+		@include respond('phone'){
+			right:0px;
+		}
+	}
+}

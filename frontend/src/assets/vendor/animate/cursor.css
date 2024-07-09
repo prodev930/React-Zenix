@@ -1,0 +1,86 @@
+body {
+    overflow-x: hidden;
+}
+
+#AnimateCursor {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background: rgb(78, 57, 39);
+    border: 1px solid rgb(51, 37, 25);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 99999999;
+    /* transition: all 0.5s linear; */
+    pointer-events: none;
+}
+
+#AnimateCursor::after {
+    position: absolute;
+    content: '';
+    padding: 15px;
+    top: -10px;
+    left: -10px;
+    border-radius: 100%;
+    border: 1px solid rgb(235, 109, 6);
+    transition: all 1s linear;
+}
+
+.icon-up {
+    background-color: var(--primary);
+    background-color: var(--primary);
+    border-radius: 50px;
+    border-style: solid;
+    border-width: var(--primary);
+    bottom: 15px;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 50px;
+    z-index: 99;
+    box-shadow: -4px 4px 24px -10px;
+    position: relativ;
+}
+
+.icon-up::after {
+    position: absolute;
+    content: '';
+    border: 2px dashed var(--primary) !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    padding: 30px;
+    left: -10px;
+    top: -10px;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+#dzSwitcher-right {
+    top: 10% !important;
+}
+
+/* switcher ovelay */
+.switcher_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+    z-index: 99;
+    transition: all .5s linear;
+}
+
+.header-transparent .is-fixed .nav>.active>a {
+    color: var(--primary) !important;
+}

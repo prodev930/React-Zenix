@@ -1,0 +1,96 @@
+.modal{
+    .close-btn{
+        height: 40px;
+        width: 40px;
+        background-color: #EB5757;
+        color: white;
+        text-align:center;
+        display: block;
+        line-height: 40px;
+        border-radius: 10px;
+        position: fixed;
+        top: 1rem;
+        right: 15px;
+        left: auto;
+        cursor: pointer;
+        font-size: 20px;
+		opacity: 0;
+		transition: opacity .3s ease-in-out .3s;
+    }
+	&.show{
+		.close-btn{
+			opacity: 1;
+		}
+	}
+	.modal-content{
+		border: 0;
+        border-radius: 10px;
+	}
+    .modal-header{
+		padding-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-bottom: 0;  
+		padding-top: 30px;
+        
+		@include respond ('phone'){
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-top: 20px;
+		}
+		
+        .modal-title{
+            font-size: 18px;
+        }
+    }
+	.modal-header + .modal-body{
+		padding-top: 20px;
+	}
+	.modal-footer{
+        border-top: 0;
+    }
+	.modal-body{
+		padding-left: 40px;   
+        padding-right: 40px;
+		padding-bottom: 30px;
+		padding-top: 30px;
+		
+		@include respond ('phone'){
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+}
+.modal-backdrop {
+    background-color: #1A2943;
+	
+	&.show{
+		opacity: 0.7;
+	}
+}
+.modal-content{
+	background-color: var(--card-bg);
+}
+.modal-dialog{
+	@media (min-width: 576px){
+		max-width: 412px;
+	}
+	
+    .modal-body{
+        .form-group{
+            margin-bottom: 20px;
+        }
+    }
+    
+    .btn{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 9.5px 20px;
+		
+		@include respond ('phone'){
+			font-size: 16px;
+		}
+    }  
+}

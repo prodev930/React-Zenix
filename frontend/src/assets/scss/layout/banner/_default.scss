@@ -1,0 +1,148 @@
+// dz-bnr-inr
+.dz-bnr-inr{
+    height: 450px;
+    background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index:2;
+	background-blend-mode: luminosity;
+    background: var(--primary);
+	width: 100%;
+	background-image: url(../images/background/bgprimary.png);
+	
+	@include respond('tab-port'){
+		height: 350px;
+	}
+	@include respond('phone-land'){
+		height: 280px;
+	}
+	@include respond('phone'){
+		height: 300px;
+	}
+	
+	.container{
+		display: table;
+		height: 100%;
+		
+	}
+	.dz-bnr-inr-entry{
+	    height: 450px;
+		vertical-align: middle;
+		display: table-cell;
+		
+		@include respond('tab-port'){
+			height: 350px;
+		}
+		@include respond('phone-land'){
+			height: 280px;
+		}
+		@include respond('phone'){
+			height: 230px;
+		}
+	}
+	h1 {
+		font-size: 4.0625rem;
+		margin-bottom: 0px;
+		line-height: 1.2;
+		color:#fff;
+		text-transform: capitalize;
+		text-shadow: 0px 30px 70px #002622;
+		
+		@media only screen and (max-width: 1191px){
+			font-size: 48px;
+		}
+		@include respond('tab-port'){
+			font-size: 36px;
+		}
+		@include respond('phone-land'){
+			font-size: 30px;
+		}
+		@include respond('phone'){
+			font-size: 26px;
+		}
+	}
+
+	&::after{
+		content: "";
+		height: 20%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,7db9e8+100&0.5+0,0+100 */
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+	}
+	.breadcrumb{
+		background: rgba(255, 255, 255, 0.1) !important;
+
+	}
+	.breadcrumb-row{
+		ul{
+			margin-bottom: 0;
+			box-shadow: 0px 4px 100px rgba(21, 50, 93, 0.2);
+			li{
+				&:active{
+					color:#fff !important;
+				}
+			}
+		}
+	}
+	
+}
+.breadcrumb-row{
+	ul {
+		background:var(--card-bg);
+		padding: 0;
+		display:inline-block;
+		padding: 10px 22px;
+		border-radius:var(--border-radius-base);
+		@include respond('phone'){
+			padding: 10px 18px;
+		}
+		
+		li {
+			padding: 0;
+			display: inline-block;
+			font-size: 15px;
+			font-weight: 500;
+			text-transform: capitalize;
+			color: var(--title);
+			&.active{
+				color: var(--primary);			
+			}
+			a{
+				color: var(--primary);	
+			}
+			i{
+				color: var(--primary);
+				margin-right: 10px;
+			}
+			@include respond('phone'){
+				font-size: 14px;
+			}
+		}
+		.breadcrumb-item + .breadcrumb-item{
+			padding-left: 0.8rem;
+			&::before{
+				content: "\f101";
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 900;
+				color: var(--primary);
+				padding-right: .8rem;
+				
+			}
+			@include respond('phone'){
+				padding-left: 8px;
+				&::before{
+					font-size: 12px;
+					padding-right: 8px;
+					margin-top: 2px;
+				}
+			}
+		}
+	}
+}

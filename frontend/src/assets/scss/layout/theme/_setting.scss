@@ -1,0 +1,80 @@
+#bg {
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main-bar-wraper.sticky-no{
+	.main-bar {
+		position: unset;
+	}
+}
+
+.boxed{
+	.page-wraper{
+		max-width: 1280px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+	}
+	.main-bnr .dz-shape,
+	.dz-shape-2{
+		display: none;
+	}
+	.banner-media {
+		width: 500px;
+		min-width: 500px;
+	}
+	
+	.main-bar{
+		width: 1280px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+/* Frame */
+.frame{
+	padding:30px;
+	
+	.page-wraper{
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		height: auto!important;
+	}
+	.is-fixed{
+		.main-bar {
+			left:0;
+			width: 100%;
+			margin: 0;
+			position: unset;
+		}
+	}
+	button.scroltop{
+		right:50px;
+		bottom:50px;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.frame {
+		padding: 0 !important;
+	}
+	.frame button.scroltop{
+		right:15px;
+		bottom:15px;
+	}
+}
+
+.theme-sharped{
+	--border-radius-base: 0;
+	@include transitionNone;
+}
+.theme-rounded{
+	--border-radius-base: 10px;
+	@include transitionNone;
+}
+
+.theme-bg-color{
+	background-color: var(--theme-bg-color);
+}

@@ -1,0 +1,93 @@
+$flaticon_zenix-font: "flaticon_zenix";
+
+@font-face {
+    font-family: $flaticon_zenix-font;
+    src: url("./flaticon_zenix.ttf?7cdf471f2c4f568d97ef221d5b81f13f") format("truetype"),
+url("./flaticon_zenix.woff?7cdf471f2c4f568d97ef221d5b81f13f") format("woff"),
+url("./flaticon_zenix.woff2?7cdf471f2c4f568d97ef221d5b81f13f") format("woff2"),
+url("./flaticon_zenix.eot?7cdf471f2c4f568d97ef221d5b81f13f#iefix") format("embedded-opentype"),
+url("./flaticon_zenix.svg?7cdf471f2c4f568d97ef221d5b81f13f#flaticon_zenix") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_zenix !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_zenix-map: (
+    "coin-stack": "\f101",
+    "shield": "\f102",
+    "transaction": "\f103",
+    "checked": "\f104",
+    "chart": "\f105",
+    "box": "\f106",
+    "checked-1": "\f107",
+    "molecule": "\f108",
+    "bitcoin": "\f109",
+    "wallet": "\f10a",
+    "ethereum": "\f10b",
+    "bitcoin-1": "\f10c",
+    "digital-wallet": "\f10d",
+    "blockchain": "\f10e",
+    "digital-investment": "\f10f",
+    "data-management": "\f110",
+    "trend": "\f111",
+);
+
+.flaticon-coin-stack:before {
+    content: map-get($flaticon_zenix-map, "coin-stack");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon_zenix-map, "shield");
+}
+.flaticon-transaction:before {
+    content: map-get($flaticon_zenix-map, "transaction");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon_zenix-map, "checked");
+}
+.flaticon-chart:before {
+    content: map-get($flaticon_zenix-map, "chart");
+}
+.flaticon-box:before {
+    content: map-get($flaticon_zenix-map, "box");
+}
+.flaticon-checked-1:before {
+    content: map-get($flaticon_zenix-map, "checked-1");
+}
+.flaticon-molecule:before {
+    content: map-get($flaticon_zenix-map, "molecule");
+}
+.flaticon-bitcoin:before {
+    content: map-get($flaticon_zenix-map, "bitcoin");
+}
+.flaticon-wallet:before {
+    content: map-get($flaticon_zenix-map, "wallet");
+}
+.flaticon-ethereum:before {
+    content: map-get($flaticon_zenix-map, "ethereum");
+}
+.flaticon-bitcoin-1:before {
+    content: map-get($flaticon_zenix-map, "bitcoin-1");
+}
+.flaticon-digital-wallet:before {
+    content: map-get($flaticon_zenix-map, "digital-wallet");
+}
+.flaticon-blockchain:before {
+    content: map-get($flaticon_zenix-map, "blockchain");
+}
+.flaticon-digital-investment:before {
+    content: map-get($flaticon_zenix-map, "digital-investment");
+}
+.flaticon-data-management:before {
+    content: map-get($flaticon_zenix-map, "data-management");
+}
+.flaticon-trend:before {
+    content: map-get($flaticon_zenix-map, "trend");
+}

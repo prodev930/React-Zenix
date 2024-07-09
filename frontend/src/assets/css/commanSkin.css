@@ -1,0 +1,167 @@
+[data-theme-color="color_1"] {
+    /* Primary */
+    --primary: #ff8139;
+    --primary-hover: #ff6106;
+    --primary-dark: #ed5600;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(255, 129, 57, 0.1);
+    --rgba-primary-2: rgba(255, 129, 57, 0.2);
+    --rgba-primary-3: rgba(255, 129, 57, 0.3);
+    --rgba-primary-4: rgba(255, 129, 57, 0.4);
+    --rgba-primary-5: rgba(255, 129, 57, 0.5);
+    --rgba-primary-05: rgba(255, 129, 57, 0.05);
+    --rgba-primary-6: rgba(255, 129, 57, 0.6);
+    --rgba-primary-7: rgba(255, 129, 57, 0.7);
+    --rgba-primary-8: rgba(255, 129, 57, 0.8);
+    --rgba-primary-9: rgba(255, 129, 57, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #222222;
+}
+
+[data-theme-color="color_2"] {
+    /* Primary */
+    --primary: #977fff;
+    --primary-hover: #8f76fd;
+    --primary-dark: #826aed;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(151, 127, 255, 0.1);
+    --rgba-primary-2: rgba(151, 127, 255, 0.2);
+    --rgba-primary-3: rgba(151, 127, 255, 0.3);
+    --rgba-primary-4: rgba(151, 127, 255, 0.4);
+    --rgba-primary-5: rgba(151, 127, 255, 0.5);
+    --rgba-primary-05: rgba(151, 127, 255, 0.05);
+    --rgba-primary-6: rgba(151, 127, 255, 0.6);
+    --rgba-primary-7: rgba(151, 127, 255, 0.7);
+    --rgba-primary-8: rgba(151, 127, 255, 0.8);
+    --rgba-primary-9: rgba(151, 127, 255, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #232323;
+}
+
+[data-theme-color="color_3"] {
+    /* Primary */
+    --primary: #06C6D1;
+    --primary-hover: #05b5bf;
+    --primary-dark: #009ea7;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(6, 198, 209, 0.1);
+    --rgba-primary-2: rgba(6, 198, 209, 0.2);
+    --rgba-primary-3: rgba(6, 198, 209, 0.3);
+    --rgba-primary-4: rgba(6, 198, 209, 0.4);
+    --rgba-primary-5: rgba(6, 198, 209, 0.5);
+    --rgba-primary-05: rgba(6, 198, 209, 0.05);
+    --rgba-primary-6: rgba(6, 198, 209, 0.6);
+    --rgba-primary-7: rgba(6, 198, 209, 0.7);
+    --rgba-primary-8: rgba(6, 198, 209, 0.8);
+    --rgba-primary-9: rgba(6, 198, 209, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #000000;
+}
+
+[data-theme-color="color_4"] {
+    /* Primary */
+    --primary: #b8c724;
+    --primary-hover: #a4b316;
+    --primary-dark: #a7b70e;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(184, 199, 36, 0.1);
+    --rgba-primary-2: rgba(184, 199, 36, 0.2);
+    --rgba-primary-3: rgba(184, 199, 36, 0.3);
+    --rgba-primary-4: rgba(184, 199, 36, 0.4);
+    --rgba-primary-5: rgba(184, 199, 36, 0.5);
+    --rgba-primary-05: rgba(184, 199, 36, 0.05);
+    --rgba-primary-6: rgba(184, 199, 36, 0.6);
+    --rgba-primary-7: rgba(184, 199, 36, 0.7);
+    --rgba-primary-8: rgba(184, 199, 36, 0.8);
+    --rgba-primary-9: rgba(184, 199, 36, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #000000;
+}
+
+[data-theme-color="color_5"] {
+    /* Primary */
+    --primary: #f7244f;
+    --primary-hover: #f50637;
+    --primary-dark: #dd002d;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(247, 36, 79, 0.1);
+    --rgba-primary-2: rgba(247, 36, 79, 0.2);
+    --rgba-primary-3: rgba(247, 36, 79, 0.3);
+    --rgba-primary-4: rgba(247, 36, 79, 0.4);
+    --rgba-primary-5: rgba(247, 36, 79, 0.5);
+    --rgba-primary-05: rgba(247, 36, 79, 0.05);
+    --rgba-primary-6: rgba(247, 36, 79, 0.6);
+    --rgba-primary-7: rgba(247, 36, 79, 0.7);
+    --rgba-primary-8: rgba(247, 36, 79, 0.8);
+    --rgba-primary-9: rgba(247, 36, 79, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #000000;
+}
+
+[data-theme-color="color_6"] {
+    /* Primary */
+    --primary: #b65fbd;
+    --primary-hover: #b249bb;
+    --primary-dark: #ab4ab3;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(182, 95, 189, 0.1);
+    --rgba-primary-2: rgba(182, 95, 189, 0.2);
+    --rgba-primary-3: rgba(182, 95, 189, 0.3);
+    --rgba-primary-4: rgba(182, 95, 189, 0.4);
+    --rgba-primary-5: rgba(182, 95, 189, 0.5);
+    --rgba-primary-05: rgba(182, 95, 189, 0.05);
+    --rgba-primary-6: rgba(182, 95, 189, 0.6);
+    --rgba-primary-7: rgba(182, 95, 189, 0.7);
+    --rgba-primary-8: rgba(182, 95, 189, 0.8);
+    --rgba-primary-9: rgba(182, 95, 189, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #000000;
+}
+
+[data-theme-color="color_7"] {
+    /* Primary */
+    --primary: #558b2f;
+    --primary-hover: #2f5515;
+    --primary-dark: #305417;
+
+    /* Primary RGBA */
+    --rgba-primary-1: rgba(85, 139, 47, 0.1);
+    --rgba-primary-2: rgba(85, 139, 47, 0.2);
+    --rgba-primary-3: rgba(85, 139, 47, 0.3);
+    --rgba-primary-4: rgba(85, 139, 47, 0.4);
+    --rgba-primary-5: rgba(85, 139, 47, 0.5);
+    --rgba-primary-05: rgba(85, 139, 47, 0.05);
+    --rgba-primary-6: rgba(85, 139, 47, 0.6);
+    --rgba-primary-7: rgba(85, 139, 47, 0.7);
+    --rgba-primary-8: rgba(85, 139, 47, 0.8);
+    --rgba-primary-9: rgba(85, 139, 47, 0.9);
+
+    /* Other */
+    --secondary: #232323;
+    --theme-text-color: #fff;
+    --title: #000000;
+}
